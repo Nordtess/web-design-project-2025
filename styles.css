@@ -12,6 +12,15 @@
     margin-bottom: 20px;
 }
 
+
+#temou-logo {
+    display: block;
+    width: 150px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /* Stylesheet for the welcome text. */
 .welcome-text {
     font-family: Arial, Helvetica, sans-serif;
@@ -30,6 +39,13 @@
     font-size: 20px;
     margin: 10px;
     text-align: center;
+}
+
+
+.hyperlinks {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 /* Stylesheet when the user mouseover the link. */
