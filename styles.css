@@ -1,0 +1,21 @@
+
+
+
+
+/* Stylesheet for h1. */
+#title1 {
+    color: #da0f0f;
+}
+
+
+/* Stylesheet for the links being "idle". */
+.hyperlinks a {
+    color: #ad0505;
+    text-decoration: solid;
+}
+
+/* Stylesheet when the user mouseover the link. */
+.hyperlinks a:hover {
+    color: blue;
+    text-decoration:underline
+}
