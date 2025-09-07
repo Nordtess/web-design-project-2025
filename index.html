@@ -12,11 +12,25 @@
     <!--Makes the webpage responsive.-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Temou Cybersecurity</title>
+
+    <title>DataHarvest Inc</title>
 
 
-    <!--Link for the CSS file.-->
-    <link rel="stylesheet" href="styles.css">
+    <!--Links for the CSS files.-->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/text.css">
+    <link rel="stylesheet" href="css/employees.css">
+    <link rel="stylesheet" href="css/components.css">
+
+    <!--Links for the Google font.-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+
+    <!--Link for the Material Symbols icons-->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
 
 
 
@@ -31,32 +45,81 @@
 
 <body>
 
-
-    <h1 id="title1"> Temou Cybersecurity </h1>
-
-    <!--The logo image for the webpage.-->
-    <img src="temoulogo.png" alt="Temou Logo" id="temou-logo">
-
-
+    <header>
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" id="menuIcon">
+            <span class="material-symbols-outlined">menu</span>
+        </label>
 
 
-    <!--The links on the webpage.-->
-    <nav class="hyperlinks">
-        <a href="jamie.html">Jamie</a>
-        <a href="david.html">David</a>
-        <a href="diyar.html">Diyar</a>
-        <a href="abdimalik.html">Abdimalik</a>
-        <a href="moji.html">Moji</a>
-    </nav>
+
+
+        <nav id="menu-li">
+            <ul>
+                <li><a href="goals.html">Goals</a></li>
+                <li><a href="history.html">History</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="index.html">
+                        <span class="material-symbols-outlined">home</span>
+                        Home</a></li>
+            </ul>
+        </nav>
+
+        <!--The logo image for the webpage.-->
+        <img src="dataharvestlogo.png" alt="dataharvestlogo" id="dataharvest-logo">
+
+
+    </header>
+
+
+
+
 
 
 
     <div class="welcome-text">
-        <p>Welcome to Temou Cybersecurity! We are dedicated to providing cheap and pirated cybersecurity solutions to
+        <p>Welcome to DataHarvest Inc! We are dedicated to providing cheap and pirated cybersecurity solutions to
             "protect" your digital assets.</p>
         <p>Our team of experts is here to help you navigate the complex world of cybersecurity and ensure your data
             remains safe and secure (read stolen and sold).</p>
     </div>
+
+
+
+
+
+
+
+
+    <div id="employee-desc">
+        <p>Click on one of the employee pictures to learn more about them.</p>
+    </div>
+
+
+    <!--The employee images and links on the webpage.-->
+    <nav class="image-links">
+        <div class="image-link-item">
+            <a href="david.html"><img src="david.png" alt="David"></a>
+            <span class="image-desc">David - CEO</span>
+        </div>
+        <div class="image-link-item">
+            <a href="diyar.html"><img src="diyar.png" alt="Diyar"></a>
+            <span class="image-desc">Diyar - Sales Manager</span>
+        </div>
+        <div class="image-link-item">
+            <a href="jamie.html"><img src="jamie.png" alt="Jamie"></a>
+            <span class="image-desc">Jamie - Chief Scientist</span>
+        </div>
+        <div class="image-link-item">
+            <a href="abdimalik.html"><img src="abdimalik.png" alt="Abdimalik"></a>
+            <span class="image-desc">Abdimalik - Information Expert</span>
+        </div>
+        <div class="image-link-item">
+            <a href="moji.html"><img src="moji.png" alt="Moji"></a>
+            <span class="image-desc">Mojtaba - Technical Server Master</span>
+        </div>
+    </nav>
+
 
 
 
