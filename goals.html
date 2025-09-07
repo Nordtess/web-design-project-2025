@@ -8,10 +8,35 @@
 
 <head>
 
+    <meta charset="UTF-8">
+    <!--Makes the webpage responsive.-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
+    <title>DataHarvest Inc</title>
 
 
+    <!--Link for the CSS file.-->
+    <link rel="stylesheet" href="styles.css">
+
+    <!--Links for the Google font.-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+
+    <!--Link for the menu icon-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+    <style>
+        .material-symbols-outlined {
+            font-variation-settings:
+                'FILL' 0,
+                /* 0 = outline, 1 = filled */
+                'wght' 400,
+                'GRAD' 0,
+                'opsz' 24;
+        }
+    </style>
 
 </head>
 
@@ -20,7 +45,28 @@
 
 <body>
 
+    <header>
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" id="menuIcon">
+            <span class="material-symbols-outlined">menu</span>
+        </label>
 
+
+
+
+        <nav id="menu-li">
+            <ul>
+                <li><a href="goals.html">Goals</a></li>
+                <li><a href="goals.html">History</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="index.html">Home</a></li>
+            </ul>
+        </nav>
+
+
+
+
+    </header>
 
 
 
