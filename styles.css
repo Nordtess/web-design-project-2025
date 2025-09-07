@@ -1,7 +1,7 @@
 /* Stylesheet for h1. */
 #title1 {
     color: #da0f0f;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Oswald", sans-serif;
     font-size: 40px;
     text-align: center;
     margin-top: 20px;
@@ -17,9 +17,39 @@
     margin-right: auto;
 }
 
+header {
+    background-color: aliceblue;
+    padding: 1em;
+    text-align: right;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+#menu-li {
+    display: none;
+    font-family: "Oswald", sans-serif;
+    color: #f35005
+}
+
+#menu-li ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+#menu-toggle {
+    display: none;
+}
+
+#menu-toggle:checked~#menu-li {
+    display: block;
+}
+
 /* Stylesheet for the welcome text. */
 .welcome-text {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Oswald", sans-serif;
     font-size: 20px;
     color: #000000;
     margin: 20px;
@@ -31,7 +61,7 @@
 .hyperlinks a {
     color: blue;
     text-decoration: solid;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Oswald", sans-serif;
     font-size: 20px;
     margin: 10px;
     text-align: center;
@@ -48,7 +78,7 @@
 .hyperlinks a:hover {
     color: blue;
     text-decoration: underline;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Oswald", sans-serif;
     font-size: 20px;
     margin: 10px;
     text-align: center;
@@ -59,26 +89,50 @@
 
 }
 
+
+#employee-desc {
+    text-decoration: underline;
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+}
+
+.image-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: center;
+    align-items: flex-start;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.image-links a {
+    display: inline-block;
+}
+
 .image-links img {
-    width: 120px;
+    width: 160px;
     /* Change to your preferred width */
     height: auto;
-    /* Keeps aspect ratio */
+    object-fit: cover;
     border-radius: 8px;
-    /* Optional: rounded corners */
-    margin: 8px;
-    /* Optional: space between images */
+    margin: 0;
 }
 
 .image-link-item {
-    display: inline-block;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 180px;
     margin: 8px;
 }
 
 
 .image-desc {
-    display: block;
-    margin-top: 4px;
-    color: #000000;
+    margin-top: 8px;
+    font-size: 0.95em;
+    color: #000;
+    text-align: center;
 }
