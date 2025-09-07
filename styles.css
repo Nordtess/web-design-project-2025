@@ -57,6 +57,20 @@ body {
     margin: 0;
 }
 
+#menu-li a {
+    color: #f35005;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.2s, background 0.2s;
+}
+
+#menu-li a:hover {
+    color: #fff;
+    background: #f35005;
+    border-radius: 4px;
+    padding: 2px 8px;
+}
+
 #menu-toggle {
     display: none;
 }
