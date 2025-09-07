@@ -58,3 +58,27 @@
     border-radius: 5px;
 
 }
+
+.image-links img {
+    width: 120px;
+    /* Change to your preferred width */
+    height: auto;
+    /* Keeps aspect ratio */
+    border-radius: 8px;
+    /* Optional: rounded corners */
+    margin: 8px;
+    /* Optional: space between images */
+}
+
+.image-link-item {
+    display: inline-block;
+    text-align: center;
+    margin: 8px;
+}
+
+
+.image-desc {
+    display: block;
+    margin-top: 4px;
+    color: #000000;
+}
