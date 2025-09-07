@@ -6,12 +6,14 @@
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
+    display: none;
+
 }
 
 
-#temou-logo {
+#dataharvest-logo {
     display: block;
-    width: 150px;
+    width: 300px;
     height: auto;
     margin-left: auto;
     margin-right: auto;
@@ -25,6 +27,18 @@ header {
 
 body {
     background-color: aliceblue;
+}
+
+#menuIcon .material-symbols-outlined {
+    color: #000;
+    font-size: 36px;
+    line-height: 1;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+#menuIcon:hover .material-symbols-outlined {
+    opacity: 0.85;
 }
 
 #menu-li {
@@ -94,6 +108,7 @@ body {
     text-decoration: underline;
     text-align: center;
     font-family: "Oswald", sans-serif;
+    font-weight: bold;
 }
 
 .image-links {
@@ -104,7 +119,7 @@ body {
     align-items: flex-start;
     font-family: "Oswald", sans-serif;
     font-optical-sizing: auto;
-    font-weight: weight;
+    font-weight: bold;
     font-style: normal;
 }
 

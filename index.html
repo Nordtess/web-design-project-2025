@@ -25,6 +25,20 @@
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
 
 
+    <!--Link for the menu icon-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+    <style>
+        .material-symbols-outlined {
+            font-variation-settings:
+                'FILL' 0,
+                /* 0 = outline, 1 = filled */
+                'wght' 400,
+                'GRAD' 0,
+                'opsz' 24;
+        }
+    </style>
+
+
 
 
 
@@ -39,7 +53,9 @@
 
     <header>
         <input type="checkbox" id="menu-toggle">
-        <label for="menu-toggle" id="menuIcon">&#9776;</label>
+        <label for="menu-toggle" id="menuIcon">
+            <span class="material-symbols-outlined">menu</span>
+        </label>
 
         <div id="menu-li">
             <ul>
@@ -49,14 +65,16 @@
             </ul>
         </div>
 
+        <h1 id="title1"> DataHarvest Inc </h1>
+
+        <!--The logo image for the webpage.-->
+        <img src="dataharvestlogo.png" alt="dataharvestlogo" id="dataharvest-logo">
+
 
     </header>
 
 
-    <h1 id="title1"> DataHarvest Inc </h1>
 
-    <!--The logo image for the webpage.-->
-    <img src="temoulogo.png" alt="Temou Logo" id="temou-logo">
 
 
 
