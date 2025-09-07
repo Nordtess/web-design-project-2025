@@ -29,16 +29,20 @@ body {
     background-color: aliceblue;
 }
 
-#menuIcon .material-symbols-outlined {
+
+#menuIcon {
     color: #000;
     font-size: 36px;
     line-height: 1;
     vertical-align: middle;
     cursor: pointer;
+    transition: box-shadow 0.2s, border 0.2s;
 }
 
-#menuIcon:hover .material-symbols-outlined {
+#menuIcon:hover {
     opacity: 0.85;
+    box-shadow: 0 0 16px #da0f0f;
+    border: 2px solid #da0f0f;
 }
 
 #menu-li {
@@ -128,12 +132,18 @@ body {
 }
 
 .image-links img {
-    width: 160px;
     /* Change to your preferred width */
+    width: 160px;
     height: auto;
     object-fit: cover;
     border-radius: 8px;
     margin: 0;
+    transition: box-shadow 0.2s, border 0.2s;
+}
+
+.image-links img:hover {
+    box-shadow: 0 0 16px #da0f0f;
+    border: 2px solid #da0f0f;
 }
 
 .image-link-item {
