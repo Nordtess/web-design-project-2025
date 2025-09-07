@@ -1,0 +1,34 @@
+/* Using display: flex and flex-wrap: wrap to turn it into a flexbox container that wraps if needed. */
+.project-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+    font-family: "Oswald", sans-serif;
+}
+
+/* Makes each project-item a vertical stack. */
+.project-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 180px;
+    margin: 8px;
+}
+
+
+.project-item img {
+    width: 160px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+
+
+.project-desc {
+    margin-top: 8px;
+    font-size: 0.95em;
+    color: #000;
+    text-align: center;
+}
