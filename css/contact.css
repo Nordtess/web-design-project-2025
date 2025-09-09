@@ -1,0 +1,33 @@
+
+
+
+
+.contact-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: -9%;
+}
+
+
+#contact-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Oswald", sans-serif;
+}
+
+
+
+
+/* Settings to move the message area into the right position. */
+#message-area {
+    margin-top: 20px;
+}
+
+
+/* Settings to make the button a bit further down from the textarea. */
+#send-button {
+    margin-top: 10px;
+    width: 5%;
+}

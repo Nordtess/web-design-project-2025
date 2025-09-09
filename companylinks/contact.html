@@ -20,8 +20,11 @@
     <link rel="stylesheet" href="/css/base.css">
     <link rel="stylesheet" href="/css/header.css">
     <link rel="stylesheet" href="/css/text.css">
-    <link rel="stylesheet" href="/css/employees.css">
     <link rel="stylesheet" href="/css/components.css">
+    <link rel="stylesheet" href="/css/contact.css">
+
+    <!-- Link for the contact js file. -->
+    <script src="/js/contact.js"></script>
 
 
     <!--Links for the Google font.-->
@@ -71,6 +74,20 @@
 
 
     </header>
+
+    <!-- onsubmit="return validateForm()" use it in the form declaration for the non action listener method. -->
+
+    <form action="/somewhere-else" id="contact-text" name="contact-text" method="POST">
+       <div class="contact-row">
+            <label id="contact-label" for="flname">First and last name:</label>
+            <input type="text" id="flname" name="flname">
+       </div>
+        <textarea id="message-area" name="message-area" rows="8" cols="50" placeholder="Enter your message here"></textarea>
+        <button id="send-button" type="submit">Send</button>
+    </form>
+
+    
+
 
 
 
