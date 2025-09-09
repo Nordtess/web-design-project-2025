@@ -10,6 +10,16 @@
     font-family: "Oswald", sans-serif;
 }
 
+
+/* Using the font size as measurement to move the label into right position. */
+#contact-label {
+    display: block;
+    margin-right: 0.5em;
+    margin-top: -0.3em;
+}
+
+
+/* Using flex-direction: column to make the button be under the text area. */
 #message-area {
     display: flex;
     flex-direction: column;
@@ -18,7 +28,7 @@
 }
 
 
-/* using position: absolute to hard code in the button under the textfield. */
+/* Settings to make the button a bit further down from the textarea. */
 #send-button {
     margin-top: 20px;
 }
