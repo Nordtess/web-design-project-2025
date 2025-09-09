@@ -2,33 +2,32 @@
 
 
 
+.contact-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: -9%;
+}
+
+
 #contact-text {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    margin-left: -90px;
     font-family: "Oswald", sans-serif;
 }
 
 
-/* Using the font size as measurement to move the label into right position. */
-#contact-label {
-    display: block;
-    margin-right: 0.5em;
-    margin-top: -0.3em;
-}
 
 
-/* Using flex-direction: column to make the button be under the text area. */
+/* Settings to move the message area into the right position. */
 #message-area {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     margin-top: 20px;
 }
 
 
 /* Settings to make the button a bit further down from the textarea. */
 #send-button {
-    margin-top: 20px;
+    margin-top: 10px;
+    width: 5%;
 }
