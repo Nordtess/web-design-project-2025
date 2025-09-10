@@ -1,6 +1,7 @@
 #dataharvest-logo {
     display: block;
-    width: 300px;
+    width: 100%;
+    max-width: 300px;
     height: auto;
     margin-left: auto;
     margin-right: auto;
