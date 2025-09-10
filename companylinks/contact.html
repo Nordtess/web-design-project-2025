@@ -76,17 +76,19 @@
     </header>
 
     <!-- onsubmit="return validateForm()" use it in the form declaration for the non action listener method. -->
+    <!-- Using "GET" only to not get a 404 error since we have no server, should be using "POST" in real life since its more secure.-->
 
-    <form action="/somewhere-else" id="contact-text" name="contact-text" method="POST">
-       <div class="contact-row">
+    <form action="/companylinks/contact.html" id="contact-text" name="contact-text" method="GET">
+        <div class="contact-row">
             <label id="contact-label" for="flname">First and last name:</label>
             <input type="text" id="flname" name="flname">
-       </div>
-        <textarea id="message-area" name="message-area" rows="8" cols="50" placeholder="Enter your message here"></textarea>
+        </div>
+        <textarea id="message-area" name="message-area" rows="8" cols="50"
+            placeholder="Enter your message here"></textarea>
         <button id="send-button" type="submit">Send</button>
     </form>
 
-    
+
 
 
 
