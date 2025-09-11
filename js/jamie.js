@@ -25,7 +25,7 @@ function showIlluminati(answer) {
             alert("Unbelivable, you are a genius!");
             const img = document.createElement("img");
             img.id = "illuminati";
-            img.src = "/images/abdimalik.png";
+            img.src = "/images/jamie-page/illuminati.png"
             img.alt = "Illuminati";
             img.style.opacity = "0";
             img.style.transition = "opacity 10s";
