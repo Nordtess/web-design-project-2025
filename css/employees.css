@@ -49,3 +49,25 @@
 }
 
 
+
+
+
+
+
+
+/* For jamie.html. */
+.secretClubForm {
+    width: 80%;
+    max-width: 400px;
+    margin: 8px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0.2%;
+}
+
+#secret-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
